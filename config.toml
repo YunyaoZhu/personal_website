@@ -1,3 +1,49 @@
-baseURL = "http://example.org/"
+baseurl = "http://example.com/"
+theme = "hugo-geo"
+relativeURLs = false
 languageCode = "en-us"
 title = "My New Hugo Site"
+disqusShortname = "shortcode-here"
+paginate = 5
+
+[taxonomies]
+	tag = "tags"
+	tutorial = "tutorials"
+
+[params]
+	showglobe = true
+
+	favicon = "favicon.ico"
+	
+	analytics = "code-here"
+
+	email = "yunyao.zhu@duke.edu"
+
+	profilepic = "img/profile.png"
+	
+	title = "Yunyao Zhu"
+	subtitle = "Duke University"
+
+	# Social buttons for sidebar
+	# Each of these are optional
+	[[params.socialbuttons]]
+	faicon = "github"
+	url = "https://github.com/YunyaoZhu"
+	[[params.socialbuttons]]
+	faicon = "twitter"
+	url = "https://twitter.com/yunyao_zhu"
+	[[params.socialbuttons]]
+	faicon = "linkedin"
+	url = "https://linkedin.com/in/yunyao-zhu"
+
+	[[params.navlinks]]
+	name = "About"
+	url = "about"
+	
+	[[params.navlinks]]
+	name = "Blog"
+	url = ""
+	
+	[[params.navlinks]]
+	name = "Tutorials"
+	url = "tutorial/" 
